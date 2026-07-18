@@ -11,10 +11,4 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "geolocation=(), camera=(), microphone=()"
 
-# Icons/images rarely change — cache them for a year. If you ever replace a
-# file at the same path, rename it (e.g. icon-192-v2.png) so browsers pick
-# up the new version instead of an old cached one.
-[[headers]]
-  for = "/assets/*"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
+

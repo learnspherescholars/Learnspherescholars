@@ -100,42 +100,42 @@ const boardsData = {
     name: "FBISE",
     fullName: "Federal Board of Intermediate & Secondary Education",
     region: "Islamabad & Federal Territories",
-    logo: "assets/logos/fbise.jpg",
+    logo: "/fbise.jpg",
     badge: { initials: "FB", color: "#1e3a5f" },
   },
   balochistan: {
     name: "Balochistan Board",
     fullName: "BISE Balochistan (Quetta)",
     region: "Balochistan",
-    logo: "assets/logos/balochistan.jpg",
+    logo: "/balochistan.jpg",
     badge: { initials: "BB", color: "#8a4b2e" },
   },
   sindh: {
     name: "Sindh Board",
     fullName: "BISE Sindh (Karachi, Hyderabad & regional boards)",
     region: "Sindh",
-    logo: "assets/logos/sindh.jpg",
+    logo: "/sindh.jpg",
     badge: { initials: "SB", color: "#2e6b5e" },
   },
   punjab: {
     name: "Punjab Boards",
     fullName: "BISE Lahore, Multan, Rawalpindi & other Punjab boards",
     region: "Punjab",
-    logo: "assets/logos/punjab.png",
+    logo: "/punjab.png",
     badge: { initials: "PB", color: "#1f6f3f" },
   },
   kpk: {
     name: "KPK Board",
     fullName: "BISE Peshawar, Swat, Mardan, Kohat, Bannu, D.I. Khan, Abbottabad & Malakand",
     region: "Khyber Pakhtunkhwa",
-    logo: "assets/logos/kpk.jpg",
+    logo: "/kpk.jpg",
     badge: { initials: "KP", color: "#7a3b5e" },
   },
   ajk: {
     name: "AJK Board",
     fullName: "BISE Azad Jammu & Kashmir (Mirpur)",
     region: "Azad Jammu & Kashmir",
-    logo: "assets/logos/ajk.jpg",
+    logo: "/ajk.jpg",
     badge: { initials: "AJK", color: "#2e5090" },
   },
 };
@@ -150,7 +150,7 @@ const testsData = {
     fullName: "Medical & Dental College Admission Test",
     conductedBy: "Pakistan Medical & Dental Council (PMDC)",
     officialSite: "https://pmdc.pk",
-    logo: "assets/logos/mdcat.png",
+    logo: "/mdcat.png",
     badge: { initials: "MD", color: "#a13d3d" },
     about:
       "MDCAT is Pakistan's national entry test for admission to MBBS and BDS programmes. " +
@@ -169,7 +169,7 @@ const testsData = {
     fullName: "Engineering College Admission Test",
     conductedBy: "University of Engineering & Technology (UET), Lahore",
     officialSite: "https://ecat.uet.edu.pk",
-    logo: "assets/logos/ecat.jpg",
+    logo: "/ecat.jpg",
     badge: { initials: "EC", color: "#2e5090" },
     about:
       "ECAT is the mandatory entry test for admission to public and private engineering " +
@@ -188,7 +188,7 @@ const testsData = {
     fullName: "NUST Entry Test",
     conductedBy: "National University of Sciences & Technology (NUST)",
     officialSite: "https://nust.edu.pk",
-    logo: "assets/logos/net.png",
+    logo: "/net.png",
     badge: { initials: "NT", color: "#1f6f3f" },
     about:
       "NET is NUST's own admission test, required for undergraduate admission to NUST and its " +
@@ -206,7 +206,7 @@ const testsData = {
     fullName: "Scholastic Assessment Test",
     conductedBy: "College Board (USA)",
     officialSite: "https://satsuite.collegeboard.org",
-    logo: "assets/logos/sat.jpg",
+    logo: "/sat.jpg",
     badge: { initials: "SAT", color: "#1e3a5f" },
     about:
       "The SAT is an internationally recognised standardised test used by universities abroad — " +
@@ -225,7 +225,7 @@ const testsData = {
     fullName: "Law Admission Test",
     conductedBy: "Higher Education Commission (HEC), Pakistan",
     officialSite: "https://hec.gov.pk",
-    logo: "assets/logos/lat.png",
+    logo: "/lat.png",
     badge: { initials: "LAT", color: "#7a3b5e" },
     about:
       "LAT is mandatory for admission to LLB / BA-LLB programmes at law colleges and " +
